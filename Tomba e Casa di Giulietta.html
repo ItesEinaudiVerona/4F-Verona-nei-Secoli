@@ -24,7 +24,7 @@
                 title="close menu">
                 <i class="fa fa-remove"></i>
             </a>
-            <a href="HomeEn.html"><img src="images/FlagEN.jpg" style="width:20%; margin: 5%;" class="w3-round"></a>
+            <a href="HomeEn.html"><img src="images/FlagEN.png" style="width:20%; margin: 5%;" class="w3-round"></a>
             <a href="index.html"><img src="images/FlagIT.png" style="width:20%; margin: 5%;" class="w3-round"></a>
             <br>
             <img src="images/StemmaMontecchi.png" style="width:20%;" class="w3-round"><img
@@ -39,15 +39,15 @@
                     class="uil uil-home"></i> Home</a>
             <a href="Arena.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
                     class="uil uil-map-marker"></i> Arena</a>
-            <a href="Chiesa di Sant'Elena.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+            <a href="Chiesa di Sant'Elena.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
                     class="uil uil-map-marker"></i> Chiesa di
                 Sant'Elena</a>
-            <a href="piazzaDeiSignori.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+            <a href="piazzaDeiSignori.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
                     class="uil uil-map-marker"></i> Piazza dei Signori</a>
             <a href="#Tomba e Casa di Giulietta" onclick="w3_close()"
-                class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="uil uil-map-marker"></i> Tomba e casa di
+                class="w3-bar-item w3-button w3-padding w3-text-teal" id="active"><i class="uil uil-map-marker" ></i> Tomba e casa di
                 Giulietta</a>
-            <a href="Cangrande.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+            <a href="Cangrande.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
                     class="uil uil-map-marker"></i> Cangrande</a>
         </div>
         <div class="w3-panel w3-large">
@@ -88,9 +88,10 @@
 
                 <h1 class="title">
                     <span class="title-word title-word-1">TOM</span><span class="title-word title-word-2">BA</span><span
-                        class="title-word title-word-3"> E</span><span class="title-word title-word-4"> CASA </span><span
-                        class="title-word title-word-3">DI </span><span class="title-word title-word-1">GIU</span><span
-                        class="title-word title-word-2">LIE</span><span class="title-word title-word-4">TTA</span>
+                        class="title-word title-word-3"> E</span><span class="title-word title-word-4"> CASA
+                    </span><span class="title-word title-word-3">DI </span><span
+                        class="title-word title-word-1">GIU</span><span class="title-word title-word-2">LIE</span><span
+                        class="title-word title-word-4">TTA</span>
                 </h1>
 
                 <div class="animation">
@@ -110,21 +111,42 @@
         <!-- First Photo Grid-->
         <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
-                <img src="images/Tomba e casa di Giulietta/Tomba Giuluetta.jpg" alt="image Chiesa di Sant'Elena" style="width:100%" class="w3-hover-opacity">
+                <img src="images/Tomba e casa di Giulietta/Tomba Giuluetta.jpg" alt="image Chiesa di Sant'Elena"
+                    style="width:100%" class="w3-hover-opacity">
                 <div class="w3-container w3-white">
                     <p><b>Tomba di Giulietta</b></p>
-                    <p>La tomba di Giulietta è un sarcofago in pietra, vuoto e senza coperchio, all'interno della cripta sotterranea della chiesa di San Francesco al Corso, in un vecchio monastero francescano. Sin dal 1500 si credeva che realmente in questa tomba è stato posto il corpo di uno dei protagonisti della tragedia shakespeariana, però,visto che la venerazione del popolo verso questo monumento pagano iniziava a diventare troppo eccessiva negli anni, le autorità ecclesiastiche decisero di rimuovere questo monumento e usarlo per decenni come abbeveratoio delle mucche. Il complesso è oggi sconsacrato e sede del Museo degli Affreschi Giovanni Battista Cavalcaselle.
-                        L'aspetto del luogo, come lo vediamo ora, risale al 1937 quando Antonio Avena, direttore del museo civico e sostenitore della tutela delle opere artistiche e architettoniche della città di verona, che si era occupato anche del rifacimento in stile della casa di Giulietta, ha voluto dare un aspetto più vicino alle aspettative dei turisti al luogo identificato come tomba dell'eroina shakespeariana. Inizialmente questa tomba, mentre veniva usata come abbeveratoio venne posta all’interno dei giardini dell’ex convento di san Francesco al corso, ma visti i continui pellegrinaggi verso questo monumento, si decise di porre questa “tomba” all’interno del sotterraneo di questo chiostro in modo da donare maggiore importanza alla tomba e rendendo tutto il complesso molto più realistico anche per i turisti. 
-                        
-                        </p>
+                    <p>La tomba di Giulietta è un sarcofago in pietra, vuoto e senza coperchio, all'interno della cripta
+                        sotterranea della chiesa di San Francesco al Corso, in un vecchio monastero francescano. Sin dal
+                        1500 si credeva che realmente in questa tomba è stato posto il corpo di uno dei protagonisti
+                        della tragedia shakespeariana, però,visto che la venerazione del popolo verso questo monumento
+                        pagano iniziava a diventare troppo eccessiva negli anni, le autorità ecclesiastiche decisero di
+                        rimuovere questo monumento e usarlo per decenni come abbeveratoio delle mucche. Il complesso è
+                        oggi sconsacrato e sede del Museo degli Affreschi Giovanni Battista Cavalcaselle.
+                        L'aspetto del luogo, come lo vediamo ora, risale al 1937 quando Antonio Avena, direttore del
+                        museo civico e sostenitore della tutela delle opere artistiche e architettoniche della città di
+                        verona, che si era occupato anche del rifacimento in stile della casa di Giulietta, ha voluto
+                        dare un aspetto più vicino alle aspettative dei turisti al luogo identificato come tomba
+                        dell'eroina shakespeariana. Inizialmente questa tomba, mentre veniva usata come abbeveratoio
+                        venne posta all’interno dei giardini dell’ex convento di san Francesco al corso, ma visti i
+                        continui pellegrinaggi verso questo monumento, si decise di porre questa “tomba” all’interno del
+                        sotterraneo di questo chiostro in modo da donare maggiore importanza alla tomba e rendendo tutto
+                        il complesso molto più realistico anche per i turisti.
+
+                    </p>
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="#" alt="image Chiesa di Sant'Elena" style="width:100%" class="w3-hover-opacity">
                 <div class="w3-container w3-white">
-                    <p><b></b></p>
-                    <p>
-                        </p>
+                    <p><b>Lorem, ipsum dolor.</b></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam deserunt at ipsa dolore
+                        nesciunt provident possimus vel placeat, reprehenderit optio minima dolorem ad totam illum! Non
+                        quaerat quos delectus, nam necessitatibus eligendi iusto sequi vitae iure et? Consectetur at
+                        magni eveniet doloribus quam enim magnam corrupti. Impedit omnis enim aliquam! Dolor, doloremque
+                        adipisci veniam excepturi unde laudantium dolore alias optio eveniet corrupti debitis nemo
+                        perspiciatis quas ullam porro velit quae! Dolor, in aliquam, culpa maxime sunt excepturi
+                        voluptatibus quos accusantium dolorum sint suscipit iusto eos iure delectus beatae blanditiis
+                        velit, nam autem amet explicabo mollitia sed molestias officiis. Voluptatibus, eaque.</p>
                 </div>
             </div>
             <div class="w3-third w3-container">
@@ -146,17 +168,21 @@
         <!-- Second Photo Grid-->
         <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
-                <img src="images/Tomba e casa di Giulietta/Casa di Giulietta.jpg" alt="image Chiesa di Sant'Elena" style="width:100%" class="w3-hover-opacity">
+                <img src="images/Tomba e casa di Giulietta/Casa di Giulietta.jpg" alt="image Chiesa di Sant'Elena"
+                    style="width:100%" class="w3-hover-opacity">
                 <div class="w3-container w3-white">
                     <p><b>Casa di Giulietta</b></p>
                     <p>La casa di Giulietta è un palazzo medievale di Verona, situato in via Cappello, a poca
                         distanza da piazza delle Erbe. Sono effettivamente esistite le famiglie di nome Montecchi e
                         Capuleti: i Capuleti sono vissuti nella casa di Giulietta fino alla permanenza di Dante.
-                         La loropresenza è testimoniata dallo stemma del cappello sulla chiave di volta dell'arco di entrata al
-                        cortile della casa. Il balcone è il risultato dell'assemblaggio di resti marmorei da re-impiegare
-                        perciò è finto. Nel 2019 sono stati svolti dei lavori di pulizia sull'arco e sui muri che portano al
+                        La loropresenza è testimoniata dallo stemma del cappello sulla chiave di volta dell'arco di
+                        entrata al
+                        cortile della casa. Il balcone è il risultato dell'assemblaggio di resti marmorei da
+                        re-impiegare
+                        perciò è finto. Nel 2019 sono stati svolti dei lavori di pulizia sull'arco e sui muri che
+                        portano al
                         cortile della casa di Giulietta.
-                        </p>
+                    </p>
                 </div>
             </div>
 
