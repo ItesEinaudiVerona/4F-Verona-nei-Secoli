@@ -33,7 +33,9 @@ h6 {
 .w3-bar-block #active{
     background-color: yellow !important;
 }
-
+.w3-bar-block #active:hover{
+    background-color: green !important;
+}
 ul {
     line-height: 2em;
     list-style: none;
